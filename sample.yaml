@@ -1,7 +1,7 @@
 Partners:
   - name: Traderjoex
     missions:
-      - name: Mission1 - 1
+      - name: Mission1
         space: Twitter
         description: mission description
         status: active
