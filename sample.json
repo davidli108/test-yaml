@@ -8,7 +8,7 @@
           "id": "1234",
           "name": "Avax apes season 1",
           "description": "Avax apes missions",
-          "imgUrl": "",
+          "imgUrl": "https://pbs.twimg.com/profile_images/1430767242606743557/G2DVOmov_400x400.jpg",
           "tags": ["NFT", "DAO", "DEFI"],
           "quests": [
             {
@@ -47,6 +47,72 @@
             }
           ],
           "total_points_reward": 60
+        }
+      ]
+    },
+    {
+      "name": "Pagolin",
+      "description": "Missions from Pagolin",
+      "missions": [
+        {
+          "id": "12345",
+          "name": "Pagolin exchange test missions 1",
+          "description": "Pagolin test missions",
+          "imgUrl": "https://assets.coingecko.com/coins/images/14023/large/PNG_token.png?1696513750",
+          "tags": ["NFT", "DAO", "DEFI"],
+          "quests": [
+            {
+              "name": "NFT hunt",
+              "description": "Pagolin nft hunts",
+              "category": "NFT",
+              "rewards": [
+                {
+                  "type": "points",
+                  "value": 30
+                }
+              ],
+              "metadata": [
+                {
+                  "contract_address": "0x60781c2586d68229fde47564546784ab3faca982",
+                  "name": "Pagolin"
+                }
+              ]
+            }
+          ],
+          "total_points_reward": 30
+        }
+      ]
+    },
+    {
+      "name": "Enzyme",
+      "description": "Missions from Enzyme",
+      "missions": [
+        {
+          "id": "2345",
+          "name": "Enzyme exchange test missions 1",
+          "description": "Enzyme test missions",
+          "imgUrl": "https://assets.coingecko.com/coins/images/605/standard/Enzyme_Icon_Secondary.png?1696501803",
+          "tags": ["NFT", "DAO", "DEFI"],
+          "quests": [
+            {
+              "name": "NFT hunt",
+              "description": "Enzyme nft hunts",
+              "category": "NFT",
+              "rewards": [
+                {
+                  "type": "points",
+                  "value": 30
+                }
+              ],
+              "metadata": [
+                {
+                  "contract_address": "0x60781c2586d68229fde47564546784ab3faca982",
+                  "name": "Enzyme"
+                }
+              ]
+            }
+          ],
+          "total_points_reward": 30
         }
       ]
     }
