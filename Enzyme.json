@@ -1,0 +1,33 @@
+{
+  "name": "Enzyme",
+  "description": "Missions from Enzyme",
+  "missions": [
+    {
+      "id": "2345",
+      "name": "Enzyme exchange test missions 1",
+      "description": "Enzyme test missions",
+      "imgUrl": "https://assets.coingecko.com/coins/images/605/standard/Enzyme_Icon_Secondary.png?1696501803",
+      "tags": ["NFT", "DAO", "DEFI"],
+      "quests": [
+        {
+          "name": "NFT hunt",
+          "description": "Enzyme nft hunts",
+          "category": "NFT",
+          "rewards": [
+            {
+              "type": "points",
+              "value": 30
+            }
+          ],
+          "metadata": [
+            {
+              "contract_address": "0x60781c2586d68229fde47564546784ab3faca982",
+              "name": "Enzyme"
+            }
+          ]
+        }
+      ],
+      "total_points_reward": 20
+    }
+  ]
+}
