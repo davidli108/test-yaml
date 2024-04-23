@@ -1,0 +1,33 @@
+{
+  "name": "Test Mission 1",
+  "description": "Missions from Test Mission 1",
+  "missions": [
+    {
+      "id": "2345",
+      "name": "Test Mission 1 exchange test missions 1",
+      "description": "Test Mission 1 test missions",
+      "imgUrl": "https://assets.coingecko.com/coins/images/605/standard/TestMission1_Icon_Secondary.png?1696501803",
+      "tags": ["NFT", "DAO", "DEFI"],
+      "quests": [
+        {
+          "name": "NFT hunt",
+          "description": "Test Mission 1 nft hunts",
+          "category": "NFT",
+          "rewards": [
+            {
+              "type": "points",
+              "value": 30
+            }
+          ],
+          "metadata": [
+            {
+              "contract_address": "0x60781c2586d68229fde47564546784ab3faca982",
+              "name": "Test Mission 1"
+            }
+          ]
+        }
+      ],
+      "total_points_reward": 20
+    }
+  ]
+}
