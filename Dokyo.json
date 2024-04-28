@@ -1,0 +1,42 @@
+{
+  "name": "Dokyo",
+  "description": "Dokyo Missions",
+  "missions": [
+    {
+      "name": "DOKYO_MISSIONS",
+      "description": "Dokyo Missions",
+      "imgUrl": "https://i.seadn.io/s/raw/files/e244879af1a5732c8260f41b414ce8b9.png?auto=format&dpr=1&w=1000",
+      "tags": ["NFT"],
+      "quests": [
+        {
+          "name": "Dokyo",
+          "description": "Dokyo nft hunts",
+          "category": "NFT",
+          "contract_address": "0x54c800d2331e10467143911aabca092d68bf4166",
+          "rewards": [
+            {
+              "type": "points",
+              "value": 60
+            }
+          ],
+          "metadata": [],
+          "tasks": [
+            {
+              "name": "Mint NFT",
+              "type": "MINT",
+              "function_abi": "lazyMint(uint256,string,bytes)",
+              "description": "Claim rewards for minting this NFT"
+            },
+            {
+              "name": "Burn NFT",
+              "type": "BURN",
+              "function_abi": "burn(uint256)",
+              "description": "Claim rewards for burning this NFT"
+            }
+          ]
+        }
+      ],
+      "total_points_reward": 60
+    }
+  ]
+}

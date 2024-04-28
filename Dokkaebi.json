@@ -1,0 +1,43 @@
+{
+  "name": "Dokkaebi",
+  "description": "Dokkaebi Missions",
+  "missions": [
+    {
+      "name": "DOKKAEBI_MISSIONS",
+      "description": "Dokkaebi Missions",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7r0W3ta7GdAFJQl6ggEYKV3Ia0JkZABEKGskVE0YECg&s",
+      "tags": ["NFT"],
+      "quests": [
+        {
+          "name": "Dokkaebi",
+          "description": "Dokkaebi nft hunts",
+          "category": "NFT",
+          "contract_address": "0xA7F6115909250B3972468BAFAE640C6EDe3b343D",
+          "rewards": [
+            {
+              "type": "points",
+              "value": 60
+            }
+          ],
+          "metadata": [
+          ],
+          "tasks": [
+            {
+              "name": "Mint NFT",
+              "type": "MINT",
+              "function_abi": "lazyMint(uint256,string,bytes)",
+              "description": "Claim rewards for minting this NFT"
+            },
+            {
+              "name": "Burn NFT",
+              "type": "BURN",
+              "function_abi": "burn(uint256)",
+              "description": "Claim rewards for burning this NFT"
+            }
+          ]
+        }
+      ],
+      "total_points_reward": 60
+    }
+  ]
+}
