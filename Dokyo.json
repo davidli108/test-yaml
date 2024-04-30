@@ -12,7 +12,6 @@
           "name": "Dokyo",
           "description": "Dokyo nft hunts",
           "category": "NFT",
-          "contract_address": "0xC38f41A296A4493Ff429F1238e030924A1542e50",
           "rewards": [
             {
               "type": "points",
@@ -24,12 +23,14 @@
             {
               "name": "Mint NFT",
               "type": "MINT",
+              "contract_address": "0xC38f41A296A4493Ff429F1238e030924A1542e50",
               "function_abi": ["lazyMint(uint256,string,bytes)"],
               "description": "Claim rewards for minting this NFT"
             },
             {
               "name": "Burn NFT",
               "type": "BURN",
+              "contract_address": "0xC38f41A296A4493Ff429F1238e030924A1542e50",
               "function_abi": ["burn(uint256)"],
               "description": "Claim rewards for burning this NFT"
             }

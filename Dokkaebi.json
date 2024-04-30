@@ -12,7 +12,6 @@
           "name": "Dokkaebi",
           "description": "Dokkaebi nft hunts",
           "category": "NFT",
-          "contract_address": "0xA7F6115909250B3972468BAFAE640C6EDe3b343D",
           "rewards": [
             {
               "type": "points",
@@ -24,12 +23,14 @@
             {
               "name": "Mint NFT",
               "type": "MINT",
+              "contract_address": "0xA7F6115909250B3972468BAFAE640C6EDe3b343D",
               "function_abi": ["lazyMint(uint256,string,bytes)"],
               "description": "Claim rewards for minting this NFT"
             },
             {
               "name": "Burn NFT",
               "type": "BURN",
+              "contract_address": "0xA7F6115909250B3972468BAFAE640C6EDe3b343D",
               "function_abi": ["burn(uint256)"],
               "description": "Claim rewards for burning this NFT"
             }
