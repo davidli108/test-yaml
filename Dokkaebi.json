@@ -19,19 +19,18 @@
               "value": 60
             }
           ],
-          "metadata": [
-          ],
+          "metadata": [],
           "tasks": [
             {
               "name": "Mint NFT",
               "type": "MINT",
-              "function_abi": "lazyMint(uint256,string,bytes)",
+              "function_abi": ["lazyMint(uint256,string,bytes)"],
               "description": "Claim rewards for minting this NFT"
             },
             {
               "name": "Burn NFT",
               "type": "BURN",
-              "function_abi": "burn(uint256)",
+              "function_abi": ["burn(uint256)"],
               "description": "Claim rewards for burning this NFT"
             }
           ]
