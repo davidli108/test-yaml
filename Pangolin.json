@@ -1,0 +1,63 @@
+{
+  "name": "Pangolin",
+  "description": "Pangolin Missions",
+  "missions": [
+    {
+      "name": "PANGOLIN_MISSIONS",
+      "description": "PANGOLIN Missions",
+      "imgUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/8422.png",
+      "tags": ["DEFI"],
+      "quests": [
+        {
+          "name": "PANGOLIN",
+          "description": "PANGOLIN",
+          "category": "DEFI",
+          "rewards": [
+            {
+              "type": "points",
+              "value": 60
+            }
+          ],
+          "metadata": [],
+          "tasks": [
+            {
+              "name": "Swap",
+              "type": "SWAP",
+              "contract_address": "0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106",
+              "function_abi": [
+                "swapAVAXForExactTokens(uint256, address[], address, uint256)",
+                "swapExactTokensForAVAX(uint256, uint256, address[], address, uint256)",
+                "swapExactAVAXForTokens(uint256, address[], address, uint256)",
+                "swapTokensForExactAVAX(uint256, uint256, address[], address, uint256)",
+                "swapExactTokensForTokens(uint256, uint256, address[], address, uint256)",
+                "swapTokensForExactTokens(uint256, uint256, address[], address, uint256)",
+                "swapExactTokensForTokensSupportingFeeOnTransferTokens(uint256, uint256, address[], address, uint256)",
+                "swapExactTokensForAVAXSupportingFeeOnTransferTokens(uint256, uint256, address[], address, uint256)",
+                "swapExactAVAXForTokensSupportingFeeOnTransferTokens(uint256, address[], address, uint256)"
+              ],
+              "description": "Claim rewards for swapping"
+            },
+            {
+              "name": "Staking",
+              "type": "Stake",
+              "contract_address": "0x88afdaE1a9F58Da3E68584421937E5F564A0135b",
+              "function_abi": [
+                "stakeWithPermit(uint256, uint256, uint8, bytes32, bytes32)",
+                "stake(uint256)"
+              ],
+              "description": "Claim rewards for staking"
+            },
+            {
+              "name": "Airdrop",
+              "type": "Airdrop",
+              "contract_address": "0x0C58C2041da4CfCcF5818Bbe3b66DBC23B3902d9",
+              "function_abi": ["claim()"],
+              "description": "Claim rewards for staking"
+            }
+          ]
+        }
+      ],
+      "total_points_reward": 60
+    }
+  ]
+}
