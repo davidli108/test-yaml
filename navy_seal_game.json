@@ -1,0 +1,54 @@
+{
+  "name": "Navy seal game",
+  "description": "Navy seal game Missions",
+  "missions": [
+    {
+      "name": "NAVY_SEAL_GAME_MISSIONS",
+      "description": "Navy seal game Missions",
+      "imgUrl": "https://i.seadn.io/s/raw/files/e244879af1a5732c8260f41b414ce8b9.png?auto=format&dpr=1&w=1000",
+      "tags": ["NFT"],
+      "quests": [
+        {
+          "name": "Navy seal game",
+          "description": "Navy seal nft hunts",
+          "category": "NFT",
+          "contract_address": "0xdcd0711505f7fb3daa3eb8b358e18020a87d58cc",
+          "rewards": [
+            {
+              "type": "points",
+              "value": 60
+            }
+          ],
+          "metadata": {},
+          "tasks": [
+            {
+              "name": "Mint NFT",
+              "type": "MINT",
+              "function_abi": [
+                "mint(uint256,bool,address)",
+                "freeMint(uint256,bool)"
+              ],
+              "description": "Claim rewards for minting this NFT",
+              "metadata": {}
+            },
+            {
+              "name": "Stake NFT",
+              "type": "STAKE",
+              "function_abi": [
+                "mint(uint256 amount,bool stake,address sponsor)",
+                "freeMint(uint256 amount,bool stake)"
+              ],
+              "description": "Claim rewards for staking this NFT",
+              "metadata": {
+                "input": {
+                  "stake": true
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "total_points_reward": 60
+    }
+  ]
+}
