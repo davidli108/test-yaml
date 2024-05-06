@@ -12,10 +12,11 @@
           "name": "PANGOLIN",
           "description": "PANGOLIN",
           "category": "DEFI",
+          "contract_address": "0x60781C2586D68229fde47564546784ab3fACA982",
           "rewards": [
             {
               "type": "points",
-              "value": 40
+              "value": 60
             }
           ],
           "metadata": [],
@@ -23,7 +24,6 @@
             {
               "name": "Swap",
               "type": "SWAP",
-              "contract_address": "0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106",
               "function_abi": [
                 "swapAVAXForExactTokens(uint256, address[], address, uint256)",
                 "swapExactTokensForAVAX(uint256, uint256, address[], address, uint256)",
@@ -35,24 +35,40 @@
                 "swapExactTokensForAVAXSupportingFeeOnTransferTokens(uint256, uint256, address[], address, uint256)",
                 "swapExactAVAXForTokensSupportingFeeOnTransferTokens(uint256, address[], address, uint256)"
               ],
-              "description": "Claim rewards for swapping"
+              "description": "Claim rewards for swapping",
+              "metadata": {
+                "contract_address": "0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106"
+              }
             },
             {
               "name": "Staking",
               "type": "Stake",
-              "contract_address": "0x88afdaE1a9F58Da3E68584421937E5F564A0135b",
               "function_abi": [
                 "stakeWithPermit(uint256, uint256, uint8, bytes32, bytes32)",
                 "stake(uint256)"
               ],
-              "description": "Claim rewards for staking"
+              "description": "Claim rewards for staking",
+              "metadata": {
+                "contract_address": "0x88afdaE1a9F58Da3E68584421937E5F564A0135b"
+              }
             },
             {
-              "name": "Airdrop",
-              "type": "Airdrop",
-              "contract_address": "0x0C58C2041da4CfCcF5818Bbe3b66DBC23B3902d9",
-              "function_abi": ["claim()"],
-              "description": "Claim rewards for staking"
+              "name": "Trading Volume",
+              "type": "TradingVolume",
+              "function_abi": [],
+              "description": "Trading Volume",
+              "metadata": {
+                "tradingVolume": 10
+              }
+            },
+            {
+              "name": "Hold",
+              "type": "Hold",
+              "function_abi": [],
+              "description": "Hold",
+              "metadata": {
+                "period": 3600
+              }
             }
           ]
         }
