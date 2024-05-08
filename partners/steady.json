@@ -1,0 +1,42 @@
+{
+  "name": "Steady",
+  "description": "Steady Missions",
+  "missions": [
+    {
+      "name": "STEADY_MISSIONS",
+      "description": "Steady Missions",
+      "imgUrl": "https://nftcalendar.io/storage/uploads/2023/04/08/steady-stack_GJ2GTbwNUiETbnhs.jpg",
+      "tags": ["NFT"],
+      "quests": [
+        {
+          "name": "Steady",
+          "description": "Steady nft hunts",
+          "category": "NFT",
+          "contract_address": "0xcdab7d987f0198edb440d014ed1e71256a0e3e7a",
+          "rewards": [
+            {
+              "type": "points",
+              "value": 60
+            }
+          ],
+          "metadata": [],
+          "tasks": [
+            {
+              "name": "Mint NFT",
+              "type": "MINT",
+              "function_abi": "lazyMint(uint256,string,bytes)",
+              "description": "Claim rewards for minting this NFT"
+            },
+            {
+              "name": "Burn NFT",
+              "type": "BURN",
+              "function_abi": "burn(uint256)",
+              "description": "Claim rewards for burning this NFT"
+            }
+          ]
+        }
+      ],
+      "total_points_reward": 60
+    }
+  ]
+}
