@@ -1,6 +1,6 @@
 {
   "name": "Pangolin",
-  "description": "Pangolin Missions",
+  "description": "Pangolin",
   "missions": [
     {
       "name": "PANGOLIN_MISSIONS",
@@ -24,25 +24,19 @@
             {
               "name": "Swap",
               "type": "SWAP",
-              "function_abi": [
-                "swapAVAXForExactTokens(uint256, address[], address, uint256)",
-                "swapExactTokensForAVAX(uint256, uint256, address[], address, uint256)",
-                "swapExactAVAXForTokens(uint256, address[], address, uint256)",
-                "swapTokensForExactAVAX(uint256, uint256, address[], address, uint256)",
-                "swapExactTokensForTokens(uint256, uint256, address[], address, uint256)",
-                "swapTokensForExactTokens(uint256, uint256, address[], address, uint256)",
-                "swapExactTokensForTokensSupportingFeeOnTransferTokens(uint256, uint256, address[], address, uint256)",
-                "swapExactTokensForAVAXSupportingFeeOnTransferTokens(uint256, uint256, address[], address, uint256)",
-                "swapExactAVAXForTokensSupportingFeeOnTransferTokens(uint256, address[], address, uint256)"
-              ],
+              "function_abi": [],
               "description": "Claim rewards for swapping",
               "metadata": {
-                "contract_address": "0xE54Ca86531e17Ef3616d22Ca28b0D458b6C89106"
+                "amount": 50000,
+                "tokens": [
+                  "0x60781c2586d68229fde47564546784ab3faca982",
+                  "0x8ce2dee54bb9921a2ae0a63dbb2df8ed88b91dd9"
+                ]
               }
             },
             {
               "name": "Staking",
-              "type": "Stake",
+              "type": "STAKE",
               "function_abi": [
                 "stakeWithPermit(uint256, uint256, uint8, bytes32, bytes32)",
                 "stake(uint256)"
@@ -53,17 +47,26 @@
               }
             },
             {
+              "name": "Airdrop",
+              "type": "AIRDROP",
+              "function_abi": ["claim()"],
+              "description": "Claim rewards for airdrop",
+              "metadata": {
+                "contract_address": "0x0C58C2041da4CfCcF5818Bbe3b66DBC23B3902d9"
+              }
+            },
+            {
               "name": "Trading Volume",
-              "type": "TradingVolume",
+              "type": "TRADINGVOLUME",
               "function_abi": [],
               "description": "Trading Volume",
               "metadata": {
-                "tradingVolume": 11
+                "tradingVolume": 10
               }
             },
             {
               "name": "Hold",
-              "type": "Hold",
+              "type": "HOLD",
               "function_abi": [],
               "description": "Hold",
               "metadata": {
