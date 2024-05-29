@@ -1,0 +1,55 @@
+{
+  "name": "Beam",
+  "description": "Beam",
+  "missions": [
+    {
+      "name": "BEAM_MISSIONS",
+      "description": "Beam Missions",
+      "imgUrl": "",
+      "tags": ["SUBNET"],
+      "quests": [
+        {
+          "name": "Beam",
+          "description": "Beam Subnet",
+          "category": "SUBNET",
+          "contract_address": "",
+          "rewards": [
+            {
+              "type": "points",
+              "value": 100
+            }
+          ],
+          "metadata": [],
+          "tasks": [
+            {
+              "name": "Transaction on the subnet",
+              "type": "transaction",
+              "function_abi": [],
+              "description": "Claim rewards for a transaction on the subnet"
+            },
+            {
+              "name": "Create subnet",
+              "type": "create",
+              "function_abi": [],
+              "description": "Claim rewards for creating a subnet"
+            },
+            {
+              "name": "Active validator",
+              "type": "validator",
+              "function_abi": [],
+              "description": "Claim rewards for active validators"
+            }
+          ]
+        }
+      ],
+      "total_points_reward": 60
+    }
+  ],
+  "chain": {
+    "id": "eYwmVU67LmSfZb1RwqCMhBYkFyG8ftxn6jAwqzFmxC9STBWLC",
+    "name": "Beam Subnet",
+    "chain_id": 4337,
+    "currency": "BEAM",
+    "rpc_url": "https://subnets.avax.network/beam/mainnet/rpc"
+  }
+}
